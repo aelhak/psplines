@@ -54,7 +54,7 @@ rm(list = ls())
 #----------------------------------#
 
 load("gusto_psme_mods.RData")
-source("src/PS_helper_functions.R")
+source("src/psme_helper_functions.R")
 
 # MALES
 
@@ -103,7 +103,7 @@ rm(list = ls())
 
 load("gusto_ps_dat.RData")
 load("gusto_psme_preds.RData")
-source("src/PS_helper_functions.R")
+source("src/psme_helper_functions.R")
 
 #### INFANT PEAK BMI - BOYS ####
 
