@@ -1,4 +1,12 @@
 
+# utility function 1
+
+xTraj <- function (model, new.x) {
+  pop <- model$pcoef[[1]] + psme:::EvalSmooth(model$smooth[[1]], new.x)
+  sub <- pop + psme:::EvalSmooth(model$smooth[[2]], new.x)
+  list(pop = pop, sub = sub)
+}
+
 #---------------------#
 #### LOAD PACKAGES ####
 #---------------------#
@@ -54,7 +62,6 @@ rm(list = ls())
 #----------------------------------#
 
 load("gusto_psme_mods.RData")
-source("src/psme_helper_functions.R")
 
 # MALES
 
@@ -103,7 +110,6 @@ rm(list = ls())
 
 load("gusto_ps_dat.RData")
 load("gusto_psme_preds.RData")
-source("src/psme_helper_functions.R")
 
 #### INFANT PEAK BMI - BOYS ####
 
