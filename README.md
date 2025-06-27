@@ -1,1 +1,1 @@
-# Investigating inter-individual differences in infant and child growth dynamics: a guide to growth curve analysis with P-splines
+# Capturing infant and child growth dynamics with P-splines mixed effects models
