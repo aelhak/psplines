@@ -2,7 +2,7 @@
 
 This page contains the R analysis code and the example analysis dataset from the above named paper. The files are described below:
 
-**1_bspline_example.R**: Generates a figure demonstrating B-spline basis functions.
+**1_bspline_example.R**: Generates a figure demonstrating cubic B-spline basis functions.
 
 **2_setup_fig.R**: Loads and cleans GUSTO growth data, then creates and saves a plot of the observed data. It also saves the cleaned data for later use.
 
