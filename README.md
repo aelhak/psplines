@@ -17,6 +17,7 @@ This page contains the R analysis code and the example analysis dataset from the
 **6_double_penalty_fig.R**: Uses the helper functions from the previous script to fit double penalty P-spline LME models and compares them to standard psme models.
 
 **7_had_wad_ethn_fig.R**: Fits LME models to examine height and weight differences from WHO standards up to age 5 years by maternal ethnicity group, and creates a plot of the results.
+
 **synth_dat_F.csv**: Synthetic copy of the GUSTO girls dataset
 
 **synth_dat_M.csv**: Synthetic copy of the GUSTO boys dataset
